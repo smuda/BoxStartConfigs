@@ -1,7 +1,7 @@
 #Initial windows configuration
 Update-ExecutionPolicy Unrestricted
 Enable-MicrosoftUpdate
-Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives-EnableShowFileExtensions
+#Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives-EnableShowFileExtensions
 
 #Runtimes and frameworks
 cinstm DotNet4.0
