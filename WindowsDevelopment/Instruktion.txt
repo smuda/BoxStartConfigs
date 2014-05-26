@@ -1,7 +1,5 @@
 
 1. Installera Windows på vanligt sätt
-2. Logga in på github och lämna webläsaren.
-3. Starta powershell
-4. Kör följande kommando:
-START http://boxstarter.org/package/nr/url?https://raw.github.com/AyoyAB/playground/master/InstalleraWindowsburkar/01-dotnet-development-machine.ps1?token=1939667__eyJzY29wZSI6IlJhd0Jsb2I6QXlveUFCL3BsYXlncm91bmQvbWFzdGVyL0luc3RhbGxlcmFXaW5kb3dzYnVya2FyLzAxLWRvdG5ldC1kZXZlbG9wbWVudC1tYWNoaW5lLnBzMSIsImV4cGlyZXMiOjEzOTQyOTc4NjZ9--35fec61d1742d2fb27d2cfb6651ecd5b7b0481d1
-
+2. Starta powershell
+3. Kör följande kommando:
+START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/smuda/BoxStartConfigs/master/WindowsDevelopment/01-dotnet-development-machine.ps1
