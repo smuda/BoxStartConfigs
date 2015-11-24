@@ -18,6 +18,8 @@ cinstm kdiff3
 
 #optional packages 
 cinstm java.jdk
+cinstm wixtoolset
+if (Test-PendingReboot) { Invoke-Reboot }
 
 #Install windows updates
 Install-WindowsUpdate -AcceptEula
