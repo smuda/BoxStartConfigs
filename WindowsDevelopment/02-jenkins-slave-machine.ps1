@@ -4,7 +4,7 @@ Enable-MicrosoftUpdate
 #Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives-EnableShowFileExtensions
 
 #Runtimes and frameworks
-cinstm DotNet4.0
+#cinstm DotNet4.0
 cinstm DotNet4.5
 
 #Visual studio and plugins
