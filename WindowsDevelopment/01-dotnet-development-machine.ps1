@@ -1,6 +1,6 @@
 #Initial windows configuration
 Update-ExecutionPolicy Unrestricted
-Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives-EnableShowFileExtensions
+Set-ExplorerOptions -showFileExtensions
 
 #Runtimes and frameworks
 cinst DotNet4.0
@@ -16,14 +16,14 @@ cinst GoogleChrome
 cinst fiddler4
 
 # Visual studio and plugins
-cinst VisualStudio2015Professional -InstallArguments "WebTools"
+cinst VisualStudio2015Professional
 cinst resharper
 cinst dotcover
 cinst stylecop --allow-empty-checksums
-#Install-ChocolateyVsixPackage "Web Essentials 2015" http://visualstudiogallery.msdn.microsoft.com/56633663-6799-41d7-9df7-0f2a504ca361/file/105627/24/WebEssentials2013.vsix
+cinst webessentials2015 --allow-empty-checksums
 
 # Jetbrains intelliJ
-cinst intellij
+cinst intellijidea-ultimate
 
 # VCS
 cinst gitextensions --allow-empty-checksums

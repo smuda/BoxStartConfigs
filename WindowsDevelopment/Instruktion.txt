@@ -1,5 +1,8 @@
 
-1. Installera Windows på vanligt sätt
+1. Installera Windows pŒ vanligt sŠtt
+2. Kšr fšljande powershell kommando:
+   Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+3. Installera chocolatey frŒn https://chocolatey.org/
 2. Starta powershell
-3. Kör följande kommando:
+3. Kšr fšljande kommando:
 START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/smuda/BoxStartConfigs/master/WindowsDevelopment/01-dotnet-development-machine.ps1
