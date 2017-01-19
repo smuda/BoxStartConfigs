@@ -19,7 +19,7 @@ cinst fiddler4
 cinst VisualStudio2015Professional
 cinst resharper
 cinst dotcover
-cinst stylecop --allow-empty-checksums
+#cinst stylecop --allow-empty-checksums
 cinst webessentials2015 --allow-empty-checksums
 
 # Jetbrains intelliJ
